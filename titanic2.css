@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(22, 22, 22);
+}
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 10px;
+}
+header{
+    height: 10vh;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+p{
+    display: flex;
+    margin: 23px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+ul{
+    display: flex;
+    margin: 23px;
+}
+li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+.resumo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+.titulo1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+.link{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 8rem;
+}
+.ingressos{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 8rem;
+}
+.pagamento{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    padding-left: 2rem;
+}
+.concluido{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 2rem;
+}
+footer{
+    padding-top: 2rem;
+    position:fixed ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+}
+form {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin:0 auto;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+}
+
+form input {
+    display: table;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+
